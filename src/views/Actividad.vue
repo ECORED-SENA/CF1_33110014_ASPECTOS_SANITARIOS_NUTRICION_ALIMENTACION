@@ -15,111 +15,254 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Conceptos nutricionales',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Identificar  los conceptos clave de la nutrición, incluyendo la composición del cuerpo humano, la función y clasificación de los nutrientes, y los procesos de digestión y absorción.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
-          texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
+          texto: '¿Cuál es el principal componente del cuerpo humano por peso?',
           imagen: require('@/assets/componentes/pregunta_1.svg'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
+            { id: 'a', texto: 'Carbohidratos.', esCorrecta: false },
+            { id: 'b', texto: 'Proteínas.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Explotación extensiva o traspatio',
-              esCorrecta: false,
+              texto: 'Agua.',
+              esCorrecta: true,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            { id: 'd', texto: 'Minerales.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
+            '¿Cuál de los siguientes nutrientes es esencial y no puede ser sintetizado por el cuerpo?',
           imagen: require('@/assets/componentes/pregunta_2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: 'Glucosa.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+              texto: 'Ácido linoleico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Fructosa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Galactosa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Cuál es la función principal de las enzimas en el cuerpo humano?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            { id: 'a', texto: 'Almacenar energía.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Acelerar reacciones químicas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Proveer estructura a las células.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Transportar nutrientes.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 4,
+          texto: '¿Qué tipo de azúcar es la lactosa?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Monosacárido.', esCorrecta: false },
+            { id: 'b', texto: 'Polisacárido.', esCorrecta: false },
+            { id: 'c', texto: 'Disacárido.', esCorrecta: true },
+            { id: 'd', texto: 'Oligosacárido.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 5,
+          texto: '¿Cuál de los siguientes es un ejemplo de difusión pasiva?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            { id: 'a', texto: 'Absorción de glucosa.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Movimiento de agua a través de una membrana.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Transporte activo de sodio.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Síntesis de proteínas.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál de los siguientes es un polisacárido no digerible por los humanos?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            { id: 'a', texto: 'Glucosa.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Celulosa.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Lactosa.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Maltosa.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 7,
+          texto: '¿Dónde se produce la secretina?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            { id: 'a', texto: 'Píloro.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Duodeno.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Hígado.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Estómago.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Cuál es el principal propósito de los triglicéridos en el cuerpo?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Proveer estructura celular.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Almacenar energía.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Transportar vitaminas.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Sintetizar enzimas.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Cuál de los siguientes nutrientes se transforma en ácido araquidónico?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ácido linoleico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Ácido láurico.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Ácido oleico.',
               esCorrecta: false,
             },
+            { id: 'd', texto: 'Ácido esteárico.', esCorrecta: false },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
-          id: 3,
-          texto: 'Texto de la tercera pregunta 3',
+          id: 10,
+          texto:
+            '¿Qué porcentaje del peso corporal está compuesto por carbono?',
           imagen: require('@/assets/curso/banner-princiapal.svg'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
+            {
+              id: 'a',
+              texto: '3%.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '4%.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '18%.',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: '65%.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
-        },
-        {
-          id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
-        },
-        {
-          id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Has completado el cuestionario exitosamente! Felicidades.',
+        '¡Excelente! Te felicito, has superado la actividad.',
       mensaje_final_reprobado:
-        'No has alcanzado la puntuación mínima para aprobar. Te animamos a intentarlo de nuevo.',
+        'Te recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
   computed: {},
