@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 12%
+    right: 56%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 20%
+    right: 5%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 56%
 
 
 @keyframes float1
@@ -18,3 +23,232 @@
   100%
     transform: translateY(0px)
 
+.banner-interno
+  height: 160px
+  .banner-interno__fondo
+    background-position: right bottom
+    background-image: url(../assets/curso/fondo_tema.png) !important
+
+.titulo-principal__numero
+  span
+    color: white !important
+
+//Banners
+.banner-principal__row
+  .banner-principal__img
+    padding-top: 1rem !important
+    padding-bottom: 1rem !important
+    img
+      margin-left: auto
+      max-width: 331px
+.banner-principal .tarjeta
+  background-position: inherit
+  @media screen and (max-width: $bp-max-md)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-md.png) !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
+
+//colores
+.fondo-color-sistema-g
+  background-color: $color-sistema-g
+.fondo-color-sistema-h
+  background-color: $color-sistema-h
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+.fondo-color-sistema-j
+  background-color: $color-sistema-j
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
+.fondo-color-sistema-o
+  background-color: $color-sistema-o
+.fondo-color-primario
+  background-color: $color-primario
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido
+
+//bordes
+.borde-8
+  border-radius: 8px
+.borde-10
+  border-radius: 10px
+.borde-14
+  border-radius: 14px
+.borde-20
+  border-radius: 20px
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.pos-bottom
+    &:before
+      background-position: bottom
+  &.pos-full
+    &:before
+      background-size: 100%
+      @media screen and (max-width: $bp-max-md)
+        background-size: cover
+  &.bottom-1
+    &:before
+      bottom: 140px
+  &.f1
+    &:before
+      background: rgb(232,250,249)
+      background: linear-gradient(0deg, rgba(232,250,249,0) 0%, rgba(232,250,249,1) 33%, rgba(232,250,249,1) 67%, rgba(232,250,249,0) 100%)
+  &.f2
+    .figu-1
+      position: absolute
+      max-width: 300px
+      bottom: 0
+      left: 0
+      transform: translateX(-17%)
+    .figu-2
+      position: absolute
+      max-width: 543px
+      top: 15px
+      right: 0
+      transform: translateX(26%)
+    &:before
+      background-color: $color-sistema-k
+  &__contenido
+    position: relative
+
+//slyders personalizados    
+.slider-personalizado-1
+  .slyder-a__btn--sigt,.slyder-a__btn--atrs
+    background-color: $color-acento-botones
+  .slyder-a__bullets__item
+    opacity: 0.35
+    background-color: $color-acento-contenido
+    border: none !important
+    &--active
+      opacity: 1 !important
+
+.slider-personalizado-2
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    i
+      color: $color-sistema-texto !important
+    &:before
+      content: ""
+      background-color: $color-acento-botones
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1.2rem
+      color: $white
+
+//sombras
+.sombra-p-1
+  -webkit-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+  -moz-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+  box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+
+//titulos
+.titulo-decorativo
+  position: relative
+  display: inline-flex
+  align-items: center
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-acento-contenido
+    top: 16px
+    bottom: 14px
+    left: 10px
+    right: 0
+    z-index: 0
+    border-radius: 19px
+    border-bottom: 4px solid $white
+  .cont-text 
+    position: relative
+    h3
+      margin: 0
+      padding: 1.5rem 0 
+      margin-left: 0.5rem
+      margin-right: 1.5rem
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+
+  .cont-figura
+    position: relative
+    img
+      max-width: 69px
+      min-width: 69px
+      margin-top: 0.2rem
+
+//lineas de tiempo
+.linea-tiempo-1
+  .linea-tiempo-d__item__number,.tarjeta--gris
+    background-color: #ECE4D9
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content.tarjeta--gris
+      background-color: #DCECEB
+    .linea-tiempo-d__item__number.tarjeta--gris
+      background-color: #5FB9B7
+  
+//tablas
+.tabla-p-1
+  thead
+    border-top-color: #F9D0AC
+
+//acordion
+.acordion-personalizado-1
+  .tarjeta
+    .acordion__header
+      margin-bottom: 0.7rem !important
+    padding-right: 1rem !important
+    padding-left: 1rem !important
+    padding-top: 0.7rem !important
+    border-radius: 10px
+    background-color: $color-primario
+    &.acordion__activo
+      background-color: #FBF9F7
+  .acordion__accion__btn--a
+    width: 50px
+    height: 50px
+    background-color: $color-acento-botones !important
+    color: $black
