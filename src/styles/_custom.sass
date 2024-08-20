@@ -67,6 +67,10 @@
   background-color: $color-sistema-n
 .fondo-color-sistema-o
   background-color: $color-sistema-o
+.fondo-color-sistema-p
+  background-color: $color-sistema-p
+.fondo-color-sistema-q
+  background-color: $color-sistema-q
 .fondo-color-primario
   background-color: $color-primario
 .fondo-color-acento-contenido
@@ -252,3 +256,68 @@
     height: 50px
     background-color: $color-acento-botones !important
     color: $black
+
+.fig-abs-p-1
+  max-width: 544px
+  position: absolute
+  bottom: 0
+  right: 0
+  transform: translateY(13%) translateX(18%)
+
+
+//pasos
+.pasos-personalizado-1
+  .pasos-b__header__item__line-container
+    order: 1
+    margin-bottom: 0
+  .pasos-b__header__item__tittle
+    margin-bottom: 10px
+  .pasos-b__header__item:first-child
+    .pasos-b__header__item__line-container:before
+      background-color: transparent
+  .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+    background-color: #CCCCCC
+  .pasos-b__header__item--before
+    .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+      background-color: #FF8F0E
+    .pasos-b__header__item__dot
+      background-color: transparent
+      border: 3px solid #FF8F0E
+      i
+        display: none
+  .pasos-b__header__item--active
+    .pasos-b__header__item__dot
+      background-color: $white
+      border-color: #FF8F0E
+      align-content: center
+      &:before
+        content: ""
+        width: 10px
+        height: 10px
+        background-color: #FF8F0E
+        display: flex
+        border-radius: 50%
+        margin: auto
+    .pasos-b__header__item__line-container:before
+      background-color: #FF8F0E
+  .pasos-b__header__item__dot
+    min-width: 22px
+    min-height: 22px
+    max-width: 22px
+    max-height: 22px
+    background-color: white
+    span
+      display: none
+  .pasos-b__header__btn--right,.pasos-b__header__btn--left
+    background-color: $color-acento-botones
+
+//tarjetas
+.tarjeta-p-1
+  min-height: 147px
+  background-color: $color-sistema-m
+  text-align: center
+  align-content: center
+  p
+    font-size: 18px
+    font-weight: bold
+    margin-bottom: 0
