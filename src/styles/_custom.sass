@@ -71,12 +71,21 @@
   background-color: $color-sistema-p
 .fondo-color-sistema-q
   background-color: $color-sistema-q
+.fondo-color-sistema-r
+  background-color: $color-sistema-r
+.fondo-color-sistema-s
+  background-color: $color-sistema-s
 .fondo-color-primario
   background-color: $color-primario
 .fondo-color-acento-contenido
   background-color: $color-acento-contenido
 
+.c-color-acento-contenido
+  color: $color-acento-contenido
+
 //bordes
+.no-borde
+  border: none !important
 .borde-8
   border-radius: 8px
 .borde-10
@@ -122,6 +131,9 @@
   &.pos-bottom
     &:before
       background-position: bottom
+  &.pos-top
+    &:before
+      background-position: top
   &.pos-full
     &:before
       background-size: 100%
@@ -149,6 +161,9 @@
       transform: translateX(26%)
     &:before
       background-color: $color-sistema-k
+  &.f3
+    &:before
+      background-image: url(../assets/curso/temas/48.png)
   &__contenido
     position: relative
 
@@ -321,3 +336,30 @@
     font-size: 18px
     font-weight: bold
     margin-bottom: 0
+
+.tarjeta-p-2
+  text-align: center
+  background-color: $color-sistema-k
+  border-radius: 23px
+  transition: background-color .3s
+  height: 100%
+  &:hover
+    background-color: #ACDBB9
+  &__titulo
+    display: inline-flex
+    padding: 0.2rem 1.5rem
+    background-color: $color-sistema-l
+    color: $white
+  p
+    margin-bottom: 0
+
+//listas
+.lista-p-1
+  li
+    span.fas
+      padding-top: .2rem
+      margin-right: 1rem
+    display: flex
+    margin-bottom: 1.5rem
+    &:last-child
+      margin-bottom: 0

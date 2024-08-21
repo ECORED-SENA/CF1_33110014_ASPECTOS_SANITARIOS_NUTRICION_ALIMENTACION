@@ -11,7 +11,7 @@
         <div
           v-for="(respuesta, idx) in opcionesComputed"
           :key="respuesta.id"
-          class="tarjeta tarjeta--azul tarjeta-respuesta p-4"
+          class="tarjeta tarjeta--azul borde-10 tarjeta-respuesta p-4"
           :class="{
             'mb-3': idx !== opcionesComputed.length - 1,
             'tarjeta-respuesta--correcta': respuesta.correcta,
@@ -96,6 +96,7 @@ export default {
 .tarjeta--pregunta
   background: #dce4eb
 .tarjeta-respuesta
+  background-color: white
   border: 2px solid transparent
   cursor: pointer
   transition: border-color 0.2s

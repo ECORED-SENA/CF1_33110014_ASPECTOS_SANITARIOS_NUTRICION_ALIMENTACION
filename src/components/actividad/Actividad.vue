@@ -13,7 +13,9 @@
         </p>
       </div>
     </div>
-    <div class="tarjeta tarjeta--lightest-gray p-4 p-md-5">
+    <div
+      class="tarjeta tarjeta--lightest-gray p-4 p-md-5 fondo-color-sistema-r no-borde borde-10"
+    >
       <ActividadResultados
         v-if="respuestas.length === preguntas.length"
         :respuestas="respuestas"

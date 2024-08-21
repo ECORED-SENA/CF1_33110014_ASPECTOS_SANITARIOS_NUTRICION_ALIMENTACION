@@ -44,7 +44,7 @@ export default {
           id: 2,
           texto:
             '¿Cuál de los siguientes nutrientes es esencial y no puede ser sintetizado por el cuerpo?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/componentes/pregunta_2.svg'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -76,7 +76,7 @@ export default {
           id: 3,
           texto:
             '¿Cuál es la función principal de las enzimas en el cuerpo humano?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_3.svg'),
           opciones: [
             { id: 'a', texto: 'Almacenar energía.', esCorrecta: false },
             {
@@ -98,7 +98,7 @@ export default {
         {
           id: 4,
           texto: '¿Qué tipo de azúcar es la lactosa?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_4.svg'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Monosacárido.', esCorrecta: false },
@@ -113,7 +113,7 @@ export default {
         {
           id: 5,
           texto: '¿Cuál de los siguientes es un ejemplo de difusión pasiva?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
           opciones: [
             { id: 'a', texto: 'Absorción de glucosa.', esCorrecta: false },
             {
@@ -136,7 +136,7 @@ export default {
           id: 6,
           texto:
             '¿Cuál de los siguientes es un polisacárido no digerible por los humanos?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_2.svg'),
           opciones: [
             { id: 'a', texto: 'Glucosa.', esCorrecta: false },
             {
@@ -158,7 +158,7 @@ export default {
         {
           id: 7,
           texto: '¿Dónde se produce la secretina?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_3.svg'),
           opciones: [
             { id: 'a', texto: 'Píloro.', esCorrecta: false },
             {
@@ -181,7 +181,7 @@ export default {
           id: 8,
           texto:
             '¿Cuál es el principal propósito de los triglicéridos en el cuerpo?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_4.svg'),
           opciones: [
             {
               id: 'a',
@@ -208,7 +208,7 @@ export default {
           id: 9,
           texto:
             '¿Cuál de los siguientes nutrientes se transforma en ácido araquidónico?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
           opciones: [
             {
               id: 'a',
@@ -235,7 +235,7 @@ export default {
           id: 10,
           texto:
             '¿Qué porcentaje del peso corporal está compuesto por carbono?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_2.svg'),
           opciones: [
             {
               id: 'a',
