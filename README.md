@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Fundamentos de nutrición**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_33110014_ASPECTOS_SANITARIOS_NUTRICION_ALIMENTACION/#/](https://ecored-sena.github.io/CF1_33110014_ASPECTOS_SANITARIOS_NUTRICION_ALIMENTACION/#/)
 
 #
 
