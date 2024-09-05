@@ -89,7 +89,7 @@
             .row.justify-content-center.pt-lg-4(titulo="Lactosa")
               .col-lg-6.mb-4.mb-lg-0
                 h4.mb-5 Lactosa
-                p.mb-0.me-lg-4 Azúcar de la leche producida por los mamíferos. Es el único carbohidrato de origen animal de gran importancia en la dieta. La concentración en la leche varía del 2% al 8%, dependiendo de la especie del animal.
+                p.mb-0.me-lg-4 Azúcar de la leche producida por los mamíferos. Es el único carbohidrato de origen animal de gran importancia en la dieta. La concentración en la leche varía del 2 % al 8 %, dependiendo de la especie del animal.
               .col-lg-5
                 figure
                   img.mx-auto(src="@/assets/curso/temas/38.png",style="max-width: 400px;")
@@ -301,35 +301,35 @@
         .row.justify-content-center.pt-lg-4.mb-4(titulo="Enzimas")
           .col-lg-6.mb-4.mb-lg-0
             h4.mb-4 Enzimas
-            p.mb-0.me-lg-4 Biocatalizadores que ayudan en las reacciones bioquímicas que ocurren en el cuerpo todo el tiempo. Ejemplo: Pepsina
+            p.mb-0.me-lg-4 Biocatalizadores que ayudan en las reacciones bioquímicas que ocurren en el cuerpo todo el tiempo. Ejemplo: Pepsina.
           .col-lg-5
             figure
               img.mx-auto(src="@/assets/curso/temas/51.png",style="max-width: 400px;")
         .row.justify-content-center.pt-lg-4.mb-4(titulo="Proteínas de transporte")
           .col-lg-6.mb-4.mb-lg-0
             h4.mb-4 Proteínas de transporte
-            p.mb-0.me-lg-4 Llevan diferentes sustancias de la sangre a diferentes tejidos. Ejemplo: Hemoglobina
+            p.mb-0.me-lg-4 Llevan diferentes sustancias de la sangre a diferentes tejidos. Ejemplo: Hemoglobina.
           .col-lg-5
             figure
               img.mx-auto(src="@/assets/curso/temas/52.png",style="max-width: 400px;")
         .row.justify-content-center.pt-lg-4.mb-4(titulo="Proteínas contráctiles")
           .col-lg-6.mb-4.mb-lg-0
             h4.mb-4 Proteínas contráctiles
-            p.mb-0.me-lg-4 Responsables de la contracción muscular para el movimiento y la locomoción. Ejemplo: Miosina
+            p.mb-0.me-lg-4 Responsables de la contracción muscular para el movimiento y la locomoción. Ejemplo: Miosina.
           .col-lg-5
             figure
               img.mx-auto(src="@/assets/curso/temas/53.png",style="max-width: 400px;")
         .row.justify-content-center.pt-lg-4.mb-4(titulo="Proteínas estructurales")
           .col-lg-6.mb-4.mb-lg-0
             h4.mb-4 Proteínas estructurales
-            p.mb-0.me-lg-4 Forman parte de las células y los tejidos. Ejemplo: Colágeno
+            p.mb-0.me-lg-4 Forman parte de las células y los tejidos. Ejemplo: Colágeno.
           .col-lg-5
             figure
               img.mx-auto(src="@/assets/curso/temas/54.png",style="max-width: 400px;")
         .row.justify-content-center.pt-lg-4.mb-4(titulo="Proteínas protectoras")
           .col-lg-6.mb-4.mb-lg-0
             h4.mb-4 Proteínas protectoras
-            p.mb-0.me-lg-4 Ayudan a combatir las infecciones. Ejemplo: Anticuerpos y gammaglobulinas
+            p.mb-0.me-lg-4 Ayudan a combatir las infecciones. Ejemplo: Anticuerpos y gammaglobulinas.
           .col-lg-5
             figure
               img.mx-auto(src="@/assets/curso/temas/55.png",style="max-width: 400px;")

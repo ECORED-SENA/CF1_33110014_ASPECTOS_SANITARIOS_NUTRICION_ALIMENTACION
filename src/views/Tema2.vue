@@ -49,16 +49,16 @@
             .fondo-color-primario.p-4.ps-lg-5.h-100.align-content-center
                 div
                   .fondo-color-sistema-o.d-inline-flex.p-3.pe-md-5.borde-8.mb-3
-                    p.mb-0.fw-bold Oxígeno 65%
+                    p.mb-0.fw-bold Oxígeno 65 %
                 div
                   .fondo-color-sistema-o.d-inline-flex.p-3.pe-md-5.borde-8.mb-3
-                    p.mb-0.fw-bold Carbono 18%
+                    p.mb-0.fw-bold Carbono 18 %
                 div
                   .fondo-color-sistema-o.d-inline-flex.p-3.pe-md-5.borde-8.mb-3
-                    p.mb-0.fw-bold Nitrógeno 3%
+                    p.mb-0.fw-bold Nitrógeno 3 %
                 div
                   .fondo-color-sistema-o.d-inline-flex.p-3.pe-md-5.borde-8
-                    p.mb-0.fw-bold Minerales 4%
+                    p.mb-0.fw-bold Minerales 4 %
       .col-lg-6
         .fondo-color-sistema-k.p-4.h-100.align-content-center
           figure.mb-4
@@ -225,7 +225,7 @@
         
         .row(data-aos="fade-down")
           .col-lg-8
-            p.mb-0 La absorción se realiza principalmente en el duodeno y el yeyuno. Normalmente, el 98% de los carbohidratos, el 95% de la grasa y el 92% de la proteína de la dieta se hidrolizan y se absorben los productos finales. Estos porcentajes son conocidos como coeficientes de digestibilidad.
+            p.mb-0 La absorción se realiza principalmente en el duodeno y el yeyuno. Normalmente, el 98 % de los carbohidratos, el 95 % de la grasa y el 92 % de la proteína de la dieta se hidrolizan y se absorben los productos finales. Estos porcentajes son conocidos como coeficientes de digestibilidad.
           .col-lg-4.order-first.order-lg-last
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/28.svg",style="max-width: 400px;")
@@ -254,7 +254,7 @@
             .ps-md-5.ms-md-3
               p La mayor absorción de los nutrientes se lleva a cabo mediante un transporte activo. Este transporte bombea los nutrientes hacia arriba y desde el lumen a la circulación, lo que significa que los nutrientes se mueven desde un punto de baja concentración a otro de alta concentración. Para que esto funcione, se requiere energía para el transporte activo, suministrada por los ATP (Adenosín trifosfato) del mecanismo de la glucosa dentro de la célula. El sodio tiene un papel fundamental en el transporte activo del agua, azúcares y aminoácidos.
     
-    p.mb-4(data-aos="fade-down") La siguiente figura presenta proceso de absorción de nutrientes en el sistema digestivo humano. En ella, se destacan los diferentes mecanismos de absorción, como la difusión, la difusión facilitada y el transporte activo, que permiten la incorporación de diversas sustancias esenciales desde el intestino hacia la sangre y la linfa.
+    p.mb-4(data-aos="fade-down") La siguiente figura presenta el proceso de absorción de nutrientes en el sistema digestivo humano. En ella, se destacan los diferentes mecanismos de absorción, como la difusión, la difusión facilitada y el transporte activo, que permiten la incorporación de diversas sustancias esenciales desde el intestino hacia la sangre y la linfa.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
       p.mb-0 #[b Figura 1.] Absorción

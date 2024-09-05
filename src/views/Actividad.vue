@@ -230,20 +230,20 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: '3%.',
+              texto: '3 %.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '4%.',
+              texto: '4 %.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '18%.',
+              texto: '18 %.',
               esCorrecta: true,
             },
-            { id: 'd', texto: '65%.', esCorrecta: false },
+            { id: 'd', texto: '65 %.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
