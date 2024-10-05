@@ -260,7 +260,7 @@
       p.mb-0 #[b Figura 1.] Absorción
     .fondo-color-sistema-h.p-4(data-aos="fade-down")
       figure
-        img.mx-auto(src="@/assets/curso/temas/30.svg",style="max-width: 1155px;",alt="La figura  de absorción de nutrientes en el intestino delgado y grueso, se ilustra el proceso de absorción de diversas vitaminas, minerales, nutrientes y agua en diferentes partes del intestino, incluyendo el duodeno, yeyuno, íleon y colon. Se destacan los mecanismos de difusión, difusión facilitada y transporte activo.")
+        img.mx-auto(src="@/assets/curso/temas/30.svg",style="max-width: 1155px;",alt="La figura describe el proceso de absorción de nutrientes en el sistema digestivo, mostrando cómo diferentes nutrientes se absorben en distintas partes del intestino. El proceso comienza en el duodeno, donde se absorben vitaminas como la A y B, así como folatos, riboflavina y tiamina. A medida que el alimento pasa al yeyuno, se absorben monosacáridos, aminoácidos, ácidos grasos y minerales como hierro, calcio, zinc y magnesio. Luego, en el íleon, el cuerpo sigue absorbiendo nutrientes como vitamina B12, vitamina K, sodio, potasio, cloruro y ácidos biliares. Finalmente, en el colon, el intestino grueso absorbe agua, sodio, potasio, biotina y vitamina K. Este proceso ocurre a través de varios mecanismos de transporte, como la difusión, la difusión facilitada y el transporte activo, que permiten que los nutrientes pasen a la sangre y la linfa, para luego ser distribuidos por el cuerpo.")
 
 </template>
 

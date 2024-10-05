@@ -12,7 +12,7 @@
         .row.mb-4(data-aos="fade-down")
           .col-lg-9.pe-lg-0(data-aos="fade-right")
             .fondo-color-sistema-i.p-4.h-100
-              p.mb-0 Los procesos del metabolismo son difíciles de explicar. A continuación, se describen algunos detalles. Por ejemplo, es posible seguir la digestión, la absorción y el metabolismo intermedio en un carbohidrato específico o en cualquier nutriente, pero esto puede causar una impresión errónea debido a la multitud de fenómenos metabólicos que se presentan dentro de las células. Cada fenómeno está afectado por otros que lo preceden o que se realizan al mismo tiempo. La utilización de cualquier nutriente se interrelaciona con muchos otros.
+              p.mb-0 Los nutrientes están constituidos por #[b vegetales y animales]. Los compuestos como #[b la sal y el agua] son los únicos de naturaleza inorgánica que se incluyen en la alimentación. Los componentes de los alimentos necesarios para el metabolismo orgánico, como #[b proteínas, hidratos de carbono, grasas, vitaminas y minerales], les aportan valor nutritivo a los alimentos y además influyen en las propiedades sensoriales como olor, sabor y textura.
           .col-lg-3.ps-lg-0.order-first.order-lg-last(data-aos="fade-left")
             .fondo-color-sistema-i.h-100.align-content-center
               figure
@@ -22,7 +22,7 @@
           p.mb-0 #[b Figura 2.] Uso de nutrientes
         .fondo-color-sistema-g.p-4.py-lg-5(data-aos="fade")
           figure
-            img.mx-auto(src="@/assets/curso/temas/32.svg",style="max-width: 1007px;",alt="La figura presenta la función de los hidratos de carbono, grasa, proteínas, minerales y vitaminas en la estructura del cuerpo, la producción de energía y la regulación metabólica. Se pregunta por la posibilidad de reservas corporales de estos nutrientes.")
+            img.mx-auto(src="@/assets/curso/temas/32.svg",style="max-width: 1007px;",alt="La figura presenta el uso de nutrientes en el cuerpo humano, dividiendo los nutrientes en hidratos de carbono, grasa, proteína, minerales y vitaminas. Los hidratos de carbono y las grasas se utilizan principalmente para generar energía, mientras que las proteínas se destinan tanto a la energía como a la estructura del cuerpo. Los minerales y vitaminas actúan como reguladores metabólicos, desempeñando funciones esenciales en el control de los procesos biológicos. Además, el cuerpo tiene la capacidad de almacenar ciertos nutrientes para utilizarlos en el futuro.")
     
     Separador
 
